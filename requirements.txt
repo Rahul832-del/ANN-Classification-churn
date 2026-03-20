@@ -1,4 +1,5 @@
-tensorflow==2.12.0
+tensorflow==2.16.1
+keras==3.0.5
 pandas 
 numpy 
 scikit-learn
@@ -7,5 +8,3 @@ matplotlib
 streamlit
 scikeras
 altair==4.2.2
-keras==2.12.0
-h5py==3.8.0
