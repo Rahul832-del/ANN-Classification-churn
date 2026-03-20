@@ -6,3 +6,4 @@ tensorboard
 matplotlib
 streamlit
 scikeras
+altair==4.2.2
