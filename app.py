@@ -9,7 +9,7 @@ import os
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 #load the trained model
-model = tf.keras.models.load_model(os.path.join(BASE_DIR, 'model.h5'))
+model = tf.keras.models.load_model(os.path.join(BASE_DIR, 'model.h5'),compile=False,safe_mode = False)
 #load the lable encoder , scaler and onehot encoder
 
 with open(os.path.join(BASE_DIR, 'lable_encoder_gender.pkl'), 'rb') as file:
